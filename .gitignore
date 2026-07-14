@@ -1,0 +1,64 @@
+# ==============================================================================
+# OS-Specific (GitHub Templates)
+# ==============================================================================
+
+# Linux (from github/gitignore)
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+nohup.out
+
+# Windows (Dual-boot safety)
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+[Dd]esktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# ==============================================================================
+# Local-First / Security Hardening (Never Commit Secrets)
+# ==============================================================================
+
+# Local overrides
+*.local
+*.secret
+*.private
+
+# Credentials and Keys
+.env
+.env.*
+*.pem
+*.key
+*id_rsa*
+*id_ed25519*
+
+# Cloud & Infrastructure caches
+.aws/
+.serverless/
+.terraform/
+.vagrant/
+
+# ==============================================================================
+# Editor & Temp Files
+# ==============================================================================
+
+# VS Code
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# Vim / Neovim
+[._]*.s[a-v][a-z]
+[._]*.un~
+Session.vim
+.netrwhist
+
+# Logs and databases
+*.log
