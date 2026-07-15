@@ -231,7 +231,7 @@ include '$(/usr/libexec/sway/layered-include "/usr/share/sway/config.d/*.conf" "
 input "type:touchpad" {
     tap enabled
     natural_scroll enabled
-    pointer_accel -0.1
+    pointer_accel 0
     drag_lock disabled
 }
 

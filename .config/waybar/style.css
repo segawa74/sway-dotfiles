@@ -1,0 +1,45 @@
+* {
+    font-family: 'JetBrainsMono Nerd Font', 'Font Awesome', sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    border: none;
+    border-radius: 0;
+    min-height: 0;
+}
+
+window#waybar {
+    background-color: #1e1e2e; /* シックなダークグレー */
+    color: #cdd6f4;
+    transition-property: background-color;
+    transition-duration: .5s;
+}
+
+#workspaces button {
+    padding: 0 5px;
+    background-color: transparent;
+    color: #585b70;
+}
+
+#workspaces button.focused {
+    color: #c94f7c; /* アクティブなワークスペースの色 */
+    background-color: #313244;
+}
+
+#workspaces button:hover {
+    background-color: #11111b;
+}
+
+#modules-right label,
+#sway-mode,
+#window {
+    padding: 0 10px;
+    margin: 0 2px;
+}
+
+/* 各モジュールの個別の色指定（シンプルに白基調） */
+#clock { color: #a6e3a1; }
+#battery { color: #f9e2af; }
+#cpu { color: #89b4fa; }
+#memory { color: #cba6f7; }
+#network { color: #89dceb; }
+#pulseaudio { color: #f5c2e7; }
