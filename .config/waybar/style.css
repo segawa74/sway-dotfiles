@@ -43,3 +43,9 @@ window#waybar {
 #memory { color: #cba6f7; }
 #network { color: #89dceb; }
 #pulseaudio { color: #f5c2e7; }
+
+#custom-cava {
+    color: #cba6f7; /* かわいいパステルパープル（お好みのカラーコードに変えてOK） */
+    padding: 0 10px;
+    margin: 0 4px;
+}

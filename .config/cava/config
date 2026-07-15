@@ -1,0 +1,11 @@
+[general]
+bars = 10
+
+[output]
+method = raw
+raw_target__width = 8
+data_format = ascii
+ascii_max_range = 7
+
+[color]
+# 色はWaybar側のCSSで制御
