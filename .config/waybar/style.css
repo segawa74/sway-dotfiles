@@ -49,3 +49,13 @@ window#waybar {
     padding: 0 10px;
     margin: 0 4px;
 }
+
+#mpris {
+    color: #cba6f7;
+    font-weight: bold;
+    padding: 0 5px;
+}
+
+#mpris.paused {
+    color: #585b70; /* 一時停止時は少しグレーアウトさせて目立たなくします */
+}
